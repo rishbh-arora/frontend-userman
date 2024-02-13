@@ -18,7 +18,7 @@ function OrderDetails() {
   useLayoutEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`http://127.0.0.1:8081/get-order`, {
+        const response = await axios.get(`https://backend-userman.vercel.app/get-order`, {
           headers: {
             Authorization: `Bearer ${localStorage.getItem('accessToken')}`,
           },
