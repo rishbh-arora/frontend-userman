@@ -13,7 +13,7 @@ function SignupForm({ setUser }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post(`https://backend-userman.vercel.app/add-user`, { name, phoneNumber, password });
+      const response = await axios.post(`https://backend-userman.onrender.com/add-user`, { name, phoneNumber, password });
       console.log(response.status)
       navigate('/login');
     } catch (error) {
