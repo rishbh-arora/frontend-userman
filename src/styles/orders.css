@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+
+.title {
+    color: white;
+}
+
+.addOrder {
+    float: left;
+}
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+p {
+    color: white;
+}
